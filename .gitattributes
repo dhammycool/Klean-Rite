@@ -1,0 +1,9 @@
+# Auto normalize text files to LF
+
+* text=auto
+#Force consistent line endings for specific file types
+*.js text eol=LF
+*.json text eol=LF
+*.html text eol=LF
+*.css text eol=LF
+*.ejs text eol=LF
