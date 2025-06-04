@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setInterval(() => {
     counter = (counter + 1) % totalImages.length;
     updateCarousel();
-  }, 8000)
+  }, 5000)
 
  })
  

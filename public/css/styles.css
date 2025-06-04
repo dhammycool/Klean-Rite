@@ -20,7 +20,8 @@ body{
 
 .nav{
   background-color: blue;
-
+  font-weight: bold;
+  font-size: 20px;
 }
 
 ul{
