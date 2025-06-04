@@ -701,7 +701,7 @@ textarea{
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  padding: 2rem;
+  padding:6rem;
   width: 100%;
   max-width: 80%;
   margin: auto;
@@ -716,12 +716,18 @@ textarea{
 }
 
 .grid-item.text {
-  text-align:center;
+  text-align:left;
   max-width: 400px;
   height:auto;
   
 }
 
+.map{
+  width:100%;
+  max-width: 400px;
+  height:400px;
+  border-radius: 8px;
+}
 
 
 .grid-item.image img {
@@ -834,6 +840,7 @@ textarea{
   .grid-item text > p{
     padding-bottom: 20px;
   }
+
 
 
 }
