@@ -700,8 +700,7 @@ textarea{
 .about-us {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
-  padding:6rem;
+ padding: 2rem 0 2rem 2rem;
   width: 100%;
   max-width: 80%;
   margin: auto;
@@ -716,7 +715,7 @@ textarea{
 }
 
 .grid-item.text {
-  text-align:left;
+  text-align:center;
   max-width: 400px;
   height:auto;
   
