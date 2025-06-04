@@ -718,7 +718,7 @@ textarea{
 .grid-item.text {
   text-align:center;
   max-width: 400px;
-  height:400px;
+  height:auto;
   
 }
 
@@ -727,8 +727,9 @@ textarea{
 .grid-item.image img {
   width:100%;
   max-width: 400px;
-  height:400px;
+  height:auto;
   border-radius: 8px;
+
  }
 
 
@@ -829,6 +830,9 @@ textarea{
 
   .about-us .grid-item:nth-child(1) {
     order: -1;
+  }
+  .grid-item text > p{
+    padding-bottom: 20px;
   }
 
 
