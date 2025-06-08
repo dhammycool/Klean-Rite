@@ -336,31 +336,32 @@ overflow: hidden;
 
 .check_us{
   text-align: center;
-
   background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(../images/logo.jpg);
   background-size: cover;
   background-position: center;
   border-top: 5px solid blue;
   padding-top:100px ;
   padding-bottom: 100px;
-
 }
 
-.check_us >p{
-  color:#F76B1C;
-}
+
 .check_us h1{
-  padding-top: 20px;
-  color:white;
+  padding-top: 25px;
+  color:blue;
+  font-weight:bolder ;
   font-size: 2.5rem;
 }
 
-.check_us p{
+.check_us >p{
   max-width: 100%;
-  width: 500px;
+  width: 700px;
   margin: auto;
   color: black;
-  
+  font-size:20px ;
+  font-weight: bold;
+  background-color: white;
+ border-radius: 20px;
+ padding: 20px 0 20px 0;
 }
 
 
@@ -808,7 +809,7 @@ textarea{
 }
 
 .stat{
-  text-align: center;
+  margin: auto;
   border-bottom: 2px solid blue;
  
 }
@@ -828,6 +829,7 @@ textarea{
 .stats {
   font-size: 2em;
   display: flex;
+  flex-direction:column;
   gap: 2rem;
   color:blue;
   justify-content:space-evenly;
@@ -891,9 +893,16 @@ textarea{
 
   .stats{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
+    justify-items:center;
+    color: blue;
+  
   }
 
+.check_us{
+  padding-bottom:100px;
+  padding-top:10px;
+}
 
 
 }
