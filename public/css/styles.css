@@ -37,6 +37,11 @@ ul{
 .nav a{
   color:white;
   text-decoration: none;
+
+
+  font-family: sans-serif;
+font-weight: normal;
+transition:all 0.3s ease-out;
 }
 
 .nav a:hover{
